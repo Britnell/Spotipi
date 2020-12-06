@@ -1,0 +1,31 @@
+{
+  "name": "spotipi",
+  "version": "1.0.0",
+  "description": "Building a smart device for spotify from a raspberry pi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon spotify.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Britnell/Spotipi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Britnell/Spotipi/issues"
+  },
+  "homepage": "https://github.com/Britnell/Spotipi#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "node-hid": "^1.3.1",
+    "serialport": "^9.0.2",
+    "sleep": "^6.3.0",
+    "spotify-web-api-node": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}

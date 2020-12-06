@@ -1,0 +1,3 @@
+node_modules/
+secrets.*
+program_data.json
